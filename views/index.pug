@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Status: 
+   span.asteriskField.textInfo *
+
+  .container-fluid
+  .row
+    .col-md-6
+        .col-xs-12
+          pre.propertyType
+    .col-md-6
+      button.buttonTwo.btn.btn-info #{textBtn}
